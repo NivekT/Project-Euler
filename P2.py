@@ -6,6 +6,6 @@ def fib(n):
     while y < n:
         if (y%2 == 0):
             s = s + y
-            print s
         x, y = y, x+y
+    print s
     
